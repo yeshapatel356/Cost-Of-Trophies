@@ -1,0 +1,15 @@
+  
+{
+
+  "metal": {
+    "aluminium": 5,
+    "steel": 10,
+    "copper": 15
+  },
+  "coating": {
+    "gold": 20,
+    "silver": 15,
+    "bronze": 10
+  }
+
+}

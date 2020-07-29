@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<header>
+		<title>Trophy Manufacturer</title>
+		<link rel="stylesheet" type="text/css" href="trophyStyle.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    	<meta name="name" content="Trophy Calculator">
+    	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+		
+	
+		
+   		
+</header>
+
+<body>
+
+	<div class="company">
+		<div class="trophyIcon">
+			<i class="fa fa-trophy" style="font-size:50px;color:#cd7f32; text-shadow: 2px -2px 4px #000000;"></i>
+			<i class="fa fa-trophy" style="font-size:50px;color:#aaa9ad; text-shadow: 2px -2px 4px #000000;"></i>
+			<i class="fa fa-trophy" style="font-size:50px;color:#d4af37; text-shadow: 2px -2px 4px #000000;"></i>
+		</div>TROPHY MANUFACTURER
+		<div class="trophyIcon">
+			<i class="fa fa-trophy" style="font-size:50px;color:#d4af37; text-shadow: 2px -2px 4px #000000;"></i>
+			<i class="fa fa-trophy" style="font-size:50px;color:#aaa9ad; text-shadow: 2px -2px 4px #000000;"></i>
+			<i class="fa fa-trophy" style="font-size:50px;color:#cd7f32; text-shadow: 2px -2px 4px #000000;"></i>
+		</div>
+	</div>
+	<hr class ="head">
+	<div class="menu" id="menu" >
+
+    	<li ><a href="#aboutus" class="a_color">ABOUT US</a></li>
+    	<li ><a href="#calculate" class="a_color">CALCULATE COST</a></li>
+
+	</div>
+	<hr class ="head">
+	<br>
+	<br>
+	<br>
+
+	<div class="aboutUs">
+	<p>
+		<h1 id="aboutus">About Us</h1>
+	 	We manufacture customized Trophies as per the requirements of customer. Trophies can be Spherical, Cylindrical, Cubical, or cuboidal shapes.
+		We use top quality metals to manufacture trophy i.e. Aluminium, Steel, Copper. Popular coating elements are Gold, Silver, Bronze.
+	</p>
+	</div>
+
+
+	<br>
+	<br>
+	
+	<form action="welcome.php" method="post">
+	<h1 id="calculate">Calculate Trophy Cost</h1>
+
+
+
+
+	<label> Name: </label>  <input type="text" name="name"><br>
+	<label> E-mail:</label> <input type="text" name="email"><br>
+	<label> Trophy Shape: </label>
+		<select  name="shape" >
+			<option value="sphere">Sphere</option>
+			<option value="cylinder">Cylinder</option>
+			<option value="cube">Cube</option>
+			<option value="cuboid">Cuboid</option>
+		</select>	
+	<br>
+	<label>Trophy Length(in cm): </label> <input name="length" type="number" required /><br>
+	<label>Trophy Height(in cm): </label> <input type="number" name="height" required /><br>
+	<label>Trophy Width(in cm): </label> <input type="number" name="width" required /><br>
+	<label>Trophy Radius(in cm): </label> <input type="number" name="radius" required /><br>
+	<label>Type Of Metal: </label> 
+		<select  name="metal"  required>
+            <option value="aluminium">Aluminium	(Rs.5)</option>
+            <option value="steel">Steel	(Rs.10)</option>
+            <option value="copper">Copper	(Rs.15)</option>
+        </select><br>
+    <label>Metal Purity(in %): </label> <input type="number" name="metalPurity" required /><br>
+    <label>Coating Element: </label> 
+   		<select name="coating"  required>
+            <option value="gold">Gold	(Rs.20)</option>
+            <option value="silver">Silver	(Rs.10)</option>
+            <option value="bronze">Bronze	(Rs.5)</option>
+        </select>
+	<br>
+	<label>Coating Thickness</label> <input type="number" name="coatingThickness" required /><br>
+	<button type="submit" name="submit">Calculate Cost</button>
+	<button type="reset" value="reset">Reset</button> 
+		
+	</form>
+	
+
+</body>
+
+
+
+
+
+<footer>
+	<hr>
+	<p class="p_footer">Made with &#10084 by 	<a href="mailto:patelyesha318@gmail.com"  style='  text-decoration:none; color:#17252a'>Yesha Patel</p></a> </code>
+
+</footer>
+
+
+</html>
